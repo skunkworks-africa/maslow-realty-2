@@ -16,9 +16,9 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { name: 'Properties', href: '#properties' },
+    { name: 'Property Management', href: '#propertymanagement' },
     { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
+    { name: 'Property Sales', href: '#propertsales' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -37,7 +37,7 @@ const Header = () => {
               <h1 className={`text-2xl font-bold transition-colors ${
                 isScrolled ? 'text-gray-900' : 'text-white'
               }`}>
-                SA Elite Properties
+                Maslow Realty
               </h1>
               <p className={`text-sm transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-gray-300'
@@ -68,10 +68,10 @@ const Header = () => {
               isScrolled ? 'text-gray-600' : 'text-white'
             }`}>
               <Phone size={16} />
-              <span className="text-sm">+27 11 123 4567</span>
+              <span className="text-sm">010 448 0822</span>
             </div>
             <Button className="bg-primary hover:bg-primary/90">
-              Book Viewing
+              Get in Touch
             </Button>
           </div>
 
@@ -106,7 +106,7 @@ const Header = () => {
                   <span className="text-sm">+27 11 123 4567</span>
                 </div>
                 <Button className="w-full bg-primary hover:bg-primary/90">
-                  Book Viewing
+                  Get in Touch
                 </Button>
               </div>
             </div>

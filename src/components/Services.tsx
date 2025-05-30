@@ -13,34 +13,16 @@ const Services = () => {
     },
     {
       icon: TrendingUp,
-      title: "Investment Advisory",
-      description: "Strategic investment advice to maximize returns in South Africa's dynamic real estate market.",
+      title: "Rental Asset Management",
+      description: "We're here to make your rental property experience as effortless as possible—from marketing and leasing to maintenance and financial management, our comprehensive suite of services is tailored to optimize efficiency and keep your properties running smoothly.",
       color: "bg-green-500"
     },
     {
-      icon: Users,
-      title: "Property Management",
-      description: "Comprehensive property management services to protect and enhance your real estate investments.",
-      color: "bg-purple-500"
-    },
-    {
       icon: Shield,
-      title: "Legal Services",
-      description: "Complete legal support including conveyancing, contracts, and compliance with South African property law.",
+      title: "Community Mnagaement",
+      description: "At our firm, we specialize in offering comprehensive sectional title and HOA management services tailored to suit the distinct needs of our clients, prioritizing transparent and hands-on management of schemes alongside a dedicated commitment to delivering exceptional service and support.",
       color: "bg-red-500"
     },
-    {
-      icon: Search,
-      title: "Property Valuation",
-      description: "Accurate property valuations using advanced market analysis and local expertise.",
-      color: "bg-yellow-500"
-    },
-    {
-      icon: Calculator,
-      title: "Bond Origination",
-      description: "Secure the best financing options with our extensive network of banking partners.",
-      color: "bg-indigo-500"
-    }
   ];
 
   return (
@@ -84,21 +66,6 @@ const Services = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-16 text-center bg-gradient-to-r from-primary to-navy-800 rounded-3xl p-12 text-white animate-scale-in">
-          <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
-          <p className="text-xl mb-8 opacity-90">
-            Let our experts help you find your perfect property in South Africa
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
-              Schedule Consultation
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors transform hover:scale-105">
-              Download Brochure
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );

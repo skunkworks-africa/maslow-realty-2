@@ -14,8 +14,8 @@ const Index = () => {
       <VideoHero />
       <FeaturedProperties />
       <Services />
-      <Testimonials />
-      <Footer />
+      {/* <Testimonials /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
